@@ -1,0 +1,526 @@
+/*
+Theme Name:         FoundationPress-child
+Github Theme URI:   https://github.com/seyithantopal/FoundationPress
+Description:        FoundationPress-child is a WordPress starter theme based on Foundation 6 by Zurb
+Version:            1.0
+Author:             Seyithan Topal
+
+License:            MIT License
+License URI:        http://www.opensource.org/licenses/mit-license.php
+*/
+
+/* ---------------------------------------------------------------------------- */
+body {
+  margin: 0;
+}
+
+html {
+  
+}
+
+* {
+  //margin: 0;
+  padding: 0;
+}
+
+
+#top-logo-banner {
+  background-color:#fff;
+}
+
+#logo-banner {
+  background-color:#3d3d3f;
+}
+
+.top-logo-container, .logo-container, .bottom-section-container, .footer-container {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  object-fit: none;
+  object-position: 0 0;
+  width: 350px;
+  height:105px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.top-logo {
+  object-fit: none;
+  object-position: -350px -33px;
+  width: 200px;
+  height: 50px;
+}
+
+.social-media {
+  margin:0;
+  float:right;
+  height:50px;
+}
+
+.social-media li {
+  list-style-type:none;
+  float:left;
+  margin-right:10px;
+}
+
+.social-media .facebook{
+  object-fit: none;
+  object-position: -432px 10px;
+  width: 33px;
+  height: 50px;
+}
+
+.social-media .instagram{
+  object-fit: none;
+  object-position: -465px 10px;
+  width: 33px;
+  height: 50px;
+}
+
+.str {
+  font:16px Arial;
+}
+
+.emp {
+  font-weight:bold;
+}
+
+.navbar-container .navbar {
+  background-color:red;
+}
+
+.navbar-container .navbar li {
+  float:left;
+  list-style-type:none;
+}
+
+.navbar-container .navbar li a{
+  display:block;
+  margin-right:15px;
+  text-decoration:none;
+  font:18px Arial;
+  font-weight:bold;
+  color:#dcdcdc;
+}
+
+.navbar-container .navbar li a:hover, .footer-navbar li a:hover {
+  color:#a57a5a;
+}
+
+.navbar-container {
+  z-index:9999;
+  position:relative;
+  float:right;
+  margin-top:45px;
+}
+
+#section {
+  width:100%;
+  height:700px;
+}
+
+.space {
+  width:100%;
+  height:100%;
+}
+
+.bottom-list-text {
+  width:300px;
+  margin-top:10px;
+  text-align:center;
+}
+
+.bottom-list-text {
+  
+}
+
+.single {
+  float:left;
+  margin-right:50px;
+}
+
+.single img {
+  width:300px;
+  height:300px;
+}
+
+
+.single a {
+  text-decoration:none;
+  font:26px Times New Roman;
+  font-style:italic;
+  color:#6e6e6e;
+}
+
+
+.gr {
+  display:table;
+  margin:0 auto;
+  margin-top:40px;
+}
+
+.bottom-text {
+  clear:both;
+  color:#ac744f;
+  text-align:center;
+  font:41px Times New Roman;
+  font-style:italic;
+}
+
+#footer {
+  background-color:#a6744f;
+  height:200px;
+}
+
+.footer-container {
+  margin:0 auto;
+  display:table;
+  text-align:center;
+}
+
+.footer-navbar {
+  //min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.footer-navbar li {
+  display:inline;
+  padding-right:20px;
+}
+
+.footer-navbar li a {
+  font:18px Arial;
+  text-decoration:none;
+  color:#fff6e8;
+}
+
+.footer-navbar li a:hover {
+  color:#dcdcdc;
+}
+
+.footer-text {
+  font:18px Arial;
+  color:#fff6e8;
+  margin-top:35px;
+}
+
+.footer-logo {
+  object-fit: none;
+  object-position: -350px -75px;
+  width: 220px;
+  height: 50px;
+  margin-top:15px;
+}
+
+.empe p:nth-child(2) {
+  //color:red !important;
+  font-weight:bold;
+  font:16px Arial;
+  //display:none !important;
+}
+
+.slide img {
+  //display:none !important;
+  width:100%;
+  height:700px;
+}
+
+.anchor-container {
+  position:absolute;
+  z-index:9999;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  left:0;
+  right:0;
+}
+
+.anchor {
+  position: relative;
+  z-index: 9999;
+  width:300px;
+  height:60px;
+  background-color:#a6744f;
+  border-radius: 0 0 40px 40px;
+  float:right;
+}
+
+.anchor p {
+  font:24px Arial;
+  text-align:center;
+  color:#fff;
+  font-weight: bolder;
+  margin-top:15px;
+}
+
+.dots-container {
+  position:absolute;
+  z-index:9999;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+.dots-container .dots {
+  position: relative;
+  z-index: 9999;
+  float:right;
+}
+
+.form input[type=text] {
+  width:500px;
+  height:50px;
+  padding-left:10px;
+  color:#000;
+  font:15px Arial;
+  border:1px solid #a6724a;
+}
+
+.form .wpcf7-email {
+  width:500px !important;
+  height:50px;
+  padding-left:10px;
+  color:#000;
+  font:15px Arial;
+  border:1px solid #a6724a;
+}
+
+.form .wpcf7-tel {
+  width:500px !important;
+  height:50px;
+  padding-left:10px;
+  color:#000;
+  font:15px Arial;
+  border:1px solid #a6724a;
+}
+
+
+.form input[type=submit] {
+  border:0;
+  width:150px;
+  cursor:hand;
+  background-color:#a6744f;
+  color:#fff7e9;
+  padding:15px;
+  font:18px Arial;
+}
+
+.form textarea {
+  padding-left:10px;
+  padding-top:5px;
+  font:15px Arial;
+  border:1px solid #a6724a;
+  width:100%;
+  resize:none;
+}
+
+.form {
+  padding-top:140px;
+  margin-bottom:250px;
+  margin-left:0 auto;
+  margin-right:0 auto;
+}
+
+.anchor2-container {
+  position:absolute;
+  z-index:9999;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  left:0;
+  right:0;
+}
+
+.anchor2 {
+  z-index: 9999;
+  width:400px;
+  height:60px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#a6744f;
+  border-radius: 0 0 40px 40px;
+  margin-top:0px;
+  padding:10px;
+}
+
+.anchor2 p {
+  font:24px Times New Roman;
+  text-align:center;
+  color:#fff;
+  font-style:italic;
+  font-weight: bolder;
+  margin-top:15px;
+}
+
+#map {
+    width: 100%;
+    height: 700px;
+    margin-top:15px;
+}
+
+.empty-space {
+  position:relative;
+  top:-20px;
+  height:200px;
+}
+
+h2 {
+  margin-left:20px;
+}
+
+
+
+@media only screen and (max-width: 1280px) {
+  body {
+    //display:none;
+  } 
+
+  #banner, #section, #bottom-section, #footer, .top-logo-container, .navbar-container, .logo-container, .footer-container, .bottom-section-container, .dots-container {
+    width:100%;
+  }
+
+  .top-logo, .logo {
+    margin-left:5px;
+  }
+
+  .top-logo {
+    margin-left:5px;
+  }
+
+
+  .social-media {
+    margin-right:5px;
+  }
+
+  .navbar-container {
+    //position:absolute;
+    background-color:#3d3d3f;
+    margin-top:0;
+    height:70px;
+    display:table;
+    margin:0 auto;
+  }
+
+  .navbar-container .navbar li{
+    width:100%;
+    display:inline;       
+  }
+
+  .navbar-container .navbar li a{
+    text-decoration:none;
+    font:21px Arial;
+    font-weight:bold;
+    color:#dcdcdc;
+    margin-bottom:10px;
+    margin-left:20px;   
+  }
+  .single {
+    margin-bottom:30px;
+  }
+
+  .gr {
+    margin-left:10px;
+  }
+
+  .bottom-list-img img {
+    width:250px;
+    height:250px;
+  }
+
+  .bottom-list-text {
+    width:250px;
+  }
+
+  .anchor {
+    //display:none;
+  }
+
+  .anchor-container {
+    width:100%;
+    margin-top:6px !important;
+  }
+
+  .anchor2-container {
+    width:100%;
+    margin-top:6px;
+  }
+
+  #section {
+    margin-top:270px;
+  }
+
+  .form {
+    width:100%;
+  }
+
+  .form input[type=text] {
+    width:100%;
+  }
+
+  .wpcf7-form {
+    width:100%;
+  }
+
+  .form .wpcf7-email {
+    width:100% !important;
+  }
+
+  .form .wpcf7-tel {
+    width:100% !important;
+  }
+
+  textarea {
+    width:100%;
+  }
+
+
+  .footer-container {
+    margin-top:100px;
+  }
+
+  .empty-space {
+    top:10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    //display:none;
+  }
+
+  .footer-navbar-container {
+    padding:0;
+  }
+
+  .footer-navbar-container ul li a {
+    font:18px Arial;
+    text-decoration:none;
+    color:#fff6e8;
+  }
+
+  .footer-navbar-container ul li {
+    margin-bottom:10px;
+    display:block;
+  }
+
+  .footer-container {
+    background-color:#a6744f;
+  }
+
+  .footer-logo {
+    margin-bottom:10px;
+  }
+  /*
+  #banner, #section, #bottom-section, #footer, .top-logo-container, .navbar-container, .logo-container, .footer-container, .bottom-section-container, .dots-container {
+    width:100%;
+  }
+
+  */
+}
